@@ -5,10 +5,10 @@ import abstracts.Clause;
 /**
  * Created by Rathinakumar on 6/2/2015.
  */
-public class NotBetween extends Clause {
+public class NotBetween extends Between {
     @Override
     public String getName() {
-        return "between";
+        return "notBetween";
     }
 
     @Override
